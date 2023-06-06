@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/gif">
+    <title>O Último Romântico Vivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="plano">
+    <main>
+        <section id="som">
+            <button onclick="executarFuncoes()" class="btn">Clique aqui para começar o programa</button>
+        </section>
+
+        <section id="mensagens"></section>
+
+        <section id="conteudo">
+            <h1 class="texto">Quer sair comigo?</h1>
+            <div>
+                <button onclick="mostrarConteudo2()" class="btn">Sim</button>
+                <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)">Não</button>
+            </div>
+        </section>
+        <img id="img" src="./imagens/im1.png" alt="Imagem 1">
+
+        <section id="conteudo2">
+            <img id="img2" src="./imagens/im2.png" alt="Imagem 2">
+            <img id="img3" src="./imagens/im3.png" alt="Imagem 3">
+             <h3 class="texto"></h3>
+                <a href="https://www.instagram.com/arthurb.duarte/" target="_blank">
+                <img id="QRCode" src="./imagens/QRCode.png" alt="QR Code">
+            </a>
+            <a href="index.html">
+                <button class="btn" style="margin-top: 10px;" onclick="voltar()">Voltar</button>
+            </a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
